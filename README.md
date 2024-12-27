@@ -226,5 +226,3 @@ The testbench executes the following 23 instructions. For each instruction, the 
 - **`src/`**: Contains all Verilog design and testbench files.
 - **Workspace File**: Provided for easy project setup.
 
-This project demonstrates the design and validation of a basic ALU and register file system with emphasis on correct operation and testing. Feel free to explore and verify the results using the provided instructions and initial register values!
-
