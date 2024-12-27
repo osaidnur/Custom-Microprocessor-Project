@@ -59,79 +59,80 @@ The testbench executes the following 23 instructions. For each instruction, the 
    - **Instruction**:  
      - Binary: `00000000000 11111 00011 01010 000100`  
      - Hexadecimal: `0x001F1A84`
-   - **Expected**: R31 = 6000 + 7070 = 13070
+   - **Expected**: R31 = 6000 + 7070 = **13070**
 
 2. **XOR**: `R31 = R10 ^ R3`  
    - **Instruction**:  
      - Binary: `00000000000 11111 00011 01010 000101`  
      - Hexadecimal: `0x001F1A85`
-   - **Expected**: R31 = 6000 ^ 7070 = 3310
+   - **Expected**: R31 = 6000 ^ 7070 = **3310**
 
 3. **Neg**: `R31 = -R10`  
    - **Instruction**:  
      - Binary: `00000000000 11111 00000 01010 000110`  
      - Hexadecimal: `0x001F0286`
-   - **Expected**: R31 = -6000
+   - **Expected**: R31 = **-6000**
 
 4. **Avg**: `R0 = (R10 + R3) / 2`  
    - **Instruction**:  
      - Binary: `00000000000 00000 00011 01010 000111`  
      - Hexadecimal: `0x00001A87`
-   - **Expected**: R0 = (6000 + 7070) / 2 = 6535
+   - **Expected**: R0 = (6000 + 7070) / 2 = **6535**
 
 5. **Abs**: `R0 = |R31|`  
    - **Instruction**:  
      - Binary: `00000000000 00000 00000 11111 001000`  
      - Hexadecimal: `0x000007C8`
-   - **Expected**: `R0 = |mem[31]| = |0| = 0`
+   - **Expected**: R0 = |-6000| = **6000**
 
 6. **Not**: `R31 = ~R10`  
    - **Instruction**:  
      - Binary: `00000000000 11111 00011 01010 001001`  
      - Hexadecimal: `0x001F1A89`
-   - **Expected**: `R31 = ~mem[10] = ~6000 = -6001`
+   - **Expected**: R31 = ~6000 = **-6001**
 
 7. **And**: `R31 = R10 & R3`  
    - **Instruction**:  
      - Binary: `00000000000 11111 00011 01010 001010`  
      - Hexadecimal: `0x001F1A8A`
-   - **Expected**: `R31 = mem[10] & mem[3] = 6000 & 7070 = 6024`
+   - **Expected**: R31 = 6000 & 7070 = **4880**
 
 8. **Sub**: `R31 = R10 - R3`  
    - **Instruction**:  
      - Binary: `00000000000 11111 00011 01010 001011`  
      - Hexadecimal: `0x001F1A8B`
-   - **Expected**: `R31 = mem[10] - mem[3] = 6000 - 7070 = -1070`
+   - **Expected**: R31 = 6000 - 7070 = **-1070**
 
 9. **Or**: `R31 = R10 | R3`  
    - **Instruction**:  
      - Binary: `00000000000 11111 00011 01010 001100`  
      - Hexadecimal: `0x001F1A8C`
-   - **Expected**: `R31 = mem[10] | mem[3] = 6000 | 7070 = 8066`
+   - **Expected**: R31 = 6000 | 7070 = **8190**
 
 10. **Max**: `R31 = max(R10, R3)`  
     - **Instruction**:  
       - Binary: `00000000000 11111 00011 01010 001101`  
       - Hexadecimal: `0x001F1A8D`
-    - **Expected**: `R31 = max(mem[10], mem[3]) = max(6000, 7070) = 7070`
+    - **Expected**: R31 = max(6000, 7070) = **7070**
 
 11. **Min**: `R31 = min(R10, R3)`  
     - **Instruction**:  
       - Binary: `00000000000 11111 00011 01010 001110`  
       - Hexadecimal: `0x001F1A8E`
-    - **Expected**: `R31 = min(mem[10], mem[3]) = min(6000, 7070) = 6000`
+    - **Expected**: R31 = min(6000, 7070) = **6000**
 
 12. **Sub**: `R31 = R31 - R18`  
     - **Instruction**:  
       - Binary: `00000000000 11111 10010 11111 001011`  
       - Hexadecimal: `0x001F97CB`
-    - **Expected**: `R31 = mem[31] - mem[18] = 0 - 13200 = -13200`
+    - **Expected**: R31 = 6000 - 13200 = **-7200**
+      **(Note: The value of `R31` was updated in the previous instruction)**
 
 13. **Abs**: `R5 = |R5|`  
     - **Instruction**:  
       - Binary: `00000000000 00101 00000 00101 001000`  
       - Hexadecimal: `0x00050148`
-    - **Expected**: `R5 = |mem[5]| = |3322| = 3322`
+    - **Expected**: R5 = |3322| = **3322**
 
 14. **Invalid**: Invalid opcode test  
     - **Instruction**:  
@@ -143,55 +144,61 @@ The testbench executes the following 23 instructions. For each instruction, the 
     - **Instruction**:  
       - Binary: `00000000000 00101 00000 00101 001000`  
       - Hexadecimal: `0x00050148`
-    - **Expected**: `R5 = |mem[5]| = |3322| = 3322`
+    - **Expected**: R5 = |3322| = **3322**
 
 16. **Neg**: `R31 = -R31`  
     - **Instruction**:  
       - Binary: `00000000000 11111 00000 11111 000110`  
       - Hexadecimal: `0x001F07C6`
-    - **Expected**: `R31 = -mem[31] = -0 = 0`
+    - **Expected**: R31 = -(-7200) = **7200**
 
 17. **Neg**: `R0 = -R0`  
     - **Instruction**:  
       - Binary: `00000000000 00000 00000 00000 000110`  
       - Hexadecimal: `0x00000006`
-    - **Expected**: `R0 = -mem[0] = -6535`
+    - **Expected**: R0 = -(6000) = **-6000**
+      **(Note: The value of `R0` was updated in the 5th instruction)**
+      
 
 18. **Max**: `R31 = max(R31, R0)`  
     - **Instruction**:  
       - Binary: `00000000000 11111 00000 11111 001101`  
       - Hexadecimal: `0x001F07CD`
-    - **Expected**: `R31 = max(mem[31], mem[0]) = max(0, -6535) = 0`
+    - **Expected**: R31 = max(7200, 6000) = **7200**
+      **(Note: `R0` and `R31` were updated in instructions 16 and 17)**
 
 19. **Sub**: `R0 = R0 - R0`  
     - **Instruction**:  
       - Binary: `00000000000 00000 00000 00000 001011`  
       - Hexadecimal: `0x0000000B`
-    - **Expected**: `R0 = mem[0] - mem[0] = 0 - 0 = 0`
+    - **Expected**: R0 = -6000 - (-6000) =**0**
 
 20. **XOR**: `R0 = R0 ^ R24`  
     - **Instruction**:  
       - Binary: `00000000000 00000 11000 00000 000101`  
       - Hexadecimal: `0x0000C005`
-    - **Expected**: `R0 = mem[0] ^ mem[24] = 0 ^ 5338 = 5338`
+    - **Expected**: R0 = 0 ^ 5338 = **5338**
 
 21. **Neg**: `R31 = -R24`  
     - **Instruction**:  
       - Binary: `00000000000 11111 00000 11000 000110`  
       - Hexadecimal: `0x001F0606`
-    - **Expected**: `R31 = -mem[24] = -5338`
+    - **Expected**: R31 = -(5338) = **-5338**
 
 22. **Max**: `R0 = max(R0, R24)`  
     - **Instruction**:  
       - Binary: `00000000000 00000 11000 00000 001101`  
       - Hexadecimal: `0x0000C00D`
-    - **Expected**: `R0 = max(mem[0], mem[24]) = max(0, 5338) = 5338`
+    - **Expected**: R0 = max(5338, 5338) = **5338**
+      **(Note: The value of `R0` was updated in the instruction 20)**
+      
 
-23. **Min**: `R31 = min(R31, R31)`  
+23. **Min**: `R31` = min(`R31`, `R31`)  
     - **Instruction**:  
       - Binary: `00000000000 11111 11111 11111 001110`  
       - Hexadecimal: `0x001FFFCE`
-
+    - **Expected**: R31 = min(-5338, -5338) = **-5338**
+      **(Note: The value of `R31` was updated in the instruction 21)**
 
 
 
