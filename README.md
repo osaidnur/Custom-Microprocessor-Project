@@ -2,6 +2,18 @@
 
 This repository contains the Verilog implementation of an ALU (Arithmetic Logic Unit) and Register File system designed as part of an advanced digital systems course project. The design is tested using a comprehensive testbench with detailed instruction verification.
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Supported Operations](#supported-operations)
+- [Register Initial Values](#register-initial-values)
+- [Instruction Format](#instruction-format)
+- [Instructions in the Testbench](#instructions-in-the-testbench)
+- [Results](#results)
+- [How to Run the Project](#how-to-run-the-project)
+- [File Structure](#file-structure)
+
+
 ## Project Overview
 The project simulates an ALU and a Register File system capable of executing various arithmetic and logical operations based on a 6-bit opcode. The testbench verifies the correctness of each operation by comparing the computed results with expected values.
 
