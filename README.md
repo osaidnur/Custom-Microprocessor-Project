@@ -215,6 +215,7 @@ The testbench executes the following 23 instructions. For each instruction, the 
 
 
 ### Results
+![My Photo](Screenshots/Results.png)
 
 
 ### How to Run the Project
