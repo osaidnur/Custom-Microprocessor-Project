@@ -54,29 +54,147 @@ The register file contains 32 signed 32-bit values initialized as follows:
 ### Instructions in the Testbench
 The testbench executes the following 23 instructions. For each instruction, the expected result is calculated based on the opcode and register values:
 
-1. **Add**: `R31 = R10 + R3`
-2. **XOR**: `R31 = R10 ^ R3`
-3. **Neg**: `R31 = -R10`
-4. **Avg**: `R0 = (R10 + R3) / 2`
-5. **Abs**: `R0 = |R31|`
-6. **Not**: `R31 = ~R10`
-7. **And**: `R31 = R10 & R3`
-8. **Sub**: `R31 = R10 - R3`
-9. **Or**: `R31 = R10 | R3`
-10. **Max**: `R31 = max(R10, R3)`
-11. **Min**: `R31 = min(R10, R3)`
-12. **Sub**: `R31 = R31 - R18`
-13. **Abs**: `R5 = |R5|`
-14. **Invalid**: Invalid opcode test
-15. **Abs**: `R5 = |R5|`
-16. **Neg**: `R31 = -R31`
-17. **Neg**: `R0 = -R0`
-18. **Max**: `R31 = max(R31, R0)`
-19. **Sub**: `R0 = R0 - R0`
-20. **XOR**: `R0 = R0 ^ R24`
-21. **Neg**: `R31 = -R24`
-22. **Max**: `R0 = max(R0, R24)`
-23. **Min**: `R31 = min(R31, R31)`
+## Operations and Expected Results
+
+1. **Add**: `R31 = R10 + R3`  
+   - **Instruction**:  
+     - Binary: `00000000000 11111 00011 01010 000100`  
+     - Hexadecimal: `0x001F1A85`
+   - **Expected**: `R31 = mem[10] + mem[3] = 6000 + 7070 = 13070`
+
+2. **XOR**: `R31 = R10 ^ R3`  
+   - **Instruction**:  
+     - Binary: `00000000000 11111 00011 01010 000101`  
+     - Hexadecimal: `0x001F1A86`
+   - **Expected**: `R31 = mem[10] ^ mem[3] = 6000 ^ 7070 = 3070`
+
+3. **Neg**: `R31 = -R10`  
+   - **Instruction**:  
+     - Binary: `00000000000 11111 00000 01010 000110`  
+     - Hexadecimal: `0x001F1A86`
+   - **Expected**: `R31 = -mem[10] = -6000`
+
+4. **Avg**: `R0 = (R10 + R3) / 2`  
+   - **Instruction**:  
+     - Binary: `00000000000 00000 00011 01010 000111`  
+     - Hexadecimal: `0x00000A87`
+   - **Expected**: `R0 = (mem[10] + mem[3]) / 2 = (6000 + 7070) / 2 = 6535`
+
+5. **Abs**: `R0 = |R31|`  
+   - **Instruction**:  
+     - Binary: `00000000000 00000 00000 11111 001000`  
+     - Hexadecimal: `0x00001F88`
+   - **Expected**: `R0 = |mem[31]| = |0| = 0`
+
+6. **Not**: `R31 = ~R10`  
+   - **Instruction**:  
+     - Binary: `00000000000 11111 00011 01010 001001`  
+     - Hexadecimal: `0x001F1A89`
+   - **Expected**: `R31 = ~mem[10] = ~6000 = -6001`
+
+7. **And**: `R31 = R10 & R3`  
+   - **Instruction**:  
+     - Binary: `00000000000 11111 00011 01010 001010`  
+     - Hexadecimal: `0x001F1A8A`
+   - **Expected**: `R31 = mem[10] & mem[3] = 6000 & 7070 = 6024`
+
+8. **Sub**: `R31 = R10 - R3`  
+   - **Instruction**:  
+     - Binary: `00000000000 11111 00011 01010 001011`  
+     - Hexadecimal: `0x001F1A8B`
+   - **Expected**: `R31 = mem[10] - mem[3] = 6000 - 7070 = -1070`
+
+9. **Or**: `R31 = R10 | R3`  
+   - **Instruction**:  
+     - Binary: `00000000000 11111 00011 01010 001100`  
+     - Hexadecimal: `0x001F1A8C`
+   - **Expected**: `R31 = mem[10] | mem[3] = 6000 | 7070 = 8066`
+
+10. **Max**: `R31 = max(R10, R3)`  
+    - **Instruction**:  
+      - Binary: `00000000000 11111 00011 01010 001101`  
+      - Hexadecimal: `0x001F1A8D`
+    - **Expected**: `R31 = max(mem[10], mem[3]) = max(6000, 7070) = 7070`
+
+11. **Min**: `R31 = min(R10, R3)`  
+    - **Instruction**:  
+      - Binary: `00000000000 11111 00011 01010 001110`  
+      - Hexadecimal: `0x001F1A8E`
+    - **Expected**: `R31 = min(mem[10], mem[3]) = min(6000, 7070) = 6000`
+
+12. **Sub**: `R31 = R31 - R18`  
+    - **Instruction**:  
+      - Binary: `00000000000 11111 10010 11111 001011`  
+      - Hexadecimal: `0x001F1F12`
+    - **Expected**: `R31 = mem[31] - mem[18] = 0 - 13200 = -13200`
+
+13. **Abs**: `R5 = |R5|`  
+    - **Instruction**:  
+      - Binary: `00000000000 00101 00000 00101 001000`  
+      - Hexadecimal: `0x00000128`
+    - **Expected**: `R5 = |mem[5]| = |3322| = 3322`
+
+14. **Invalid**: Invalid opcode test  
+    - **Instruction**:  
+      - Binary: `00000000000 00101 01111 01011 001111`  
+      - Hexadecimal: `0x0000013F`
+    - **Expected**: Error - Invalid opcode, register file remains unchanged
+
+15. **Abs**: `R5 = |R5|`  
+    - **Instruction**:  
+      - Binary: `00000000000 00101 00000 00101 001000`  
+      - Hexadecimal: `0x00000128`
+    - **Expected**: `R5 = |mem[5]| = |3322| = 3322`
+
+16. **Neg**: `R31 = -R31`  
+    - **Instruction**:  
+      - Binary: `00000000000 11111 00000 11111 000110`  
+      - Hexadecimal: `0x00000166`
+    - **Expected**: `R31 = -mem[31] = -0 = 0`
+
+17. **Neg**: `R0 = -R0`  
+    - **Instruction**:  
+      - Binary: `00000000000 00000 00000 00000 000110`  
+      - Hexadecimal: `0x00000006`
+    - **Expected**: `R0 = -mem[0] = -6535`
+
+18. **Max**: `R31 = max(R31, R0)`  
+    - **Instruction**:  
+      - Binary: `00000000000 11111 00000 11111 001101`  
+      - Hexadecimal: `0x001F1F18`
+    - **Expected**: `R31 = max(mem[31], mem[0]) = max(0, -6535) = 0`
+
+19. **Sub**: `R0 = R0 - R0`  
+    - **Instruction**:  
+      - Binary: `00000000000 00000 00000 00000 001011`  
+      - Hexadecimal: `0x0000000B`
+    - **Expected**: `R0 = mem[0] - mem[0] = 0 - 0 = 0`
+
+20. **XOR**: `R0 = R0 ^ R24`  
+    - **Instruction**:  
+      - Binary: `00000000000 00000 11000 00000 000101`  
+      - Hexadecimal: `0x00000015`
+    - **Expected**: `R0 = mem[0] ^ mem[24] = 0 ^ 5338 = 5338`
+
+21. **Neg**: `R31 = -R24`  
+    - **Instruction**:  
+      - Binary: `00000000000 11111 00000 11000 000110`  
+      - Hexadecimal: `0x001F1F16`
+    - **Expected**: `R31 = -mem[24] = -5338`
+
+22. **Max**: `R0 = max(R0, R24)`  
+    - **Instruction**:  
+      - Binary: `00000000000 00000 11000 00000 001101`  
+      - Hexadecimal: `0x0000001D`
+    - **Expected**: `R0 = max(mem[0], mem[24]) = max(0, 5338) = 5338`
+
+23. **Min**: `R31 = min(R31, R31)`  
+    - **Instruction**:  
+      - Binary: `00000000000 11111 11111 11111 001110`  
+      - Hexadecimal: `0x001FFFF6`
+    - **Expected**: `R31 = min(mem[31], mem[31]) = min(0, 0) = 0`
+
+
 
 ### Example Results
 Two photos are included in the repository:
