@@ -49,7 +49,19 @@ The register file contains 32 signed 32-bit values initialized as follows:
 | 14    | 2086    |     | 30    | 5642    |
 | 15    | 6734    |     | 31    | 0       |
 
+### Instruction Format
+The instruction format used in this project is structured as follows:
 
+| **Field**               | **Bits** | **Description**            |
+|--------------------------|----------|----------------------------|
+| **Opcode**              | 6 bits   | Identifies the operation   |
+| **Source Register 1**   | 5 bits   | First source register      |
+| **Source Register 2**   | 5 bits   | Second source register     |
+| **Destination Register**| 5 bits   | Destination register       |
+| **Unused**              | 11 bits  | Reserved, not used         |
+
+| 11 bits (unused) | 5 bits (Rd) | 5 bits (R2) | 5 bits (R1) | 6 bits (opcode) |
+|------------------|-------------|-------------|-------------|-----------------|
 
 ### Instructions in the Testbench
 The testbench executes the following 23 instructions. For each instruction, the expected result is calculated based on the opcode and register values:
@@ -185,7 +197,7 @@ The testbench executes the following 23 instructions. For each instruction, the 
       - Hexadecimal: `0x001F0606`
     - **Expected**: R31 = -(5338) = **-5338**
 
-22. **Max**: `R0 = max( R0 , R24 )` 
+22. **Max**: `R0 = max(R0, R24)` 
     - **Instruction**:  
       - Binary: `00000000000 00000 11000 00000 001101`  
       - Hexadecimal: `0x0000C00D`
@@ -193,7 +205,7 @@ The testbench executes the following 23 instructions. For each instruction, the 
       **(Note: The value of `R0` was updated in the instruction 20)**
       
 
-23. **Min**: `R31 = min( R31 , R31 )` 
+23. **Min**: `R31 = min(R31, R31)` 
     - **Instruction**:  
       - Binary: `00000000000 11111 11111 11111 001110`  
       - Hexadecimal: `0x001FFFCE`
@@ -202,16 +214,13 @@ The testbench executes the following 23 instructions. For each instruction, the 
 
 
 
-### Example Results
-Two photos are included in the repository:
-1. **Terminal Output**: Displays the computed result, expected result, and status (PASS/FAIL) for each instruction.
-2. **Waveform**: Illustrates the signal transitions and verifies the timing of operations.
+### Results
+
 
 ### How to Run the Project
 1. Open the workspace file in **Active-HDL**.
-2. Navigate to the `src` folder containing the Verilog files.
-3. Compile the design files and testbench.
-4. Run the simulation and view results in the terminal or waveform viewer.
+2. Compile the design files and testbench.
+3. Run the simulation and view results in the terminal or waveform viewer.
 
 ### File Structure
 - **`src/`**: Contains all Verilog design and testbench files.
