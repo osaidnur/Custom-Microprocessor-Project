@@ -185,7 +185,7 @@ The testbench executes the following 23 instructions. For each instruction, the 
       - Hexadecimal: `0x001F0606`
     - **Expected**: R31 = -(5338) = **-5338**
 
-22. **Max**: `R0 = max(R0, R24)`  
+22. **Max**: R0 = max(R0, R24) 
     - **Instruction**:  
       - Binary: `00000000000 00000 11000 00000 001101`  
       - Hexadecimal: `0x0000C00D`
