@@ -19,11 +19,11 @@ The following table lists the operations supported by the ALU and their respecti
 | 5      | `a ^ b`         | XOR                      |
 | 6      | `-a`            | Negation                 |
 | 7      | `(a + b) / 2`   | Average                  |
-| 8      | `|`a`|`           | Absolute Value           |
+| 8      | `\|a\|`         | Absolute Value           |
 | 9      | `~a`            | Bitwise NOT              |
 | 10     | `a & b`         | AND                      |
 | 11     | `a - b`         | Subtraction              |
-| 12     | `a `|` b`         | OR                       |
+| 12     | `a \| b`        | OR                       |
 | 13     | `max(a, b)`     | Maximum of two numbers   |
 | 14     | `min(a, b)`     | Minimum of two numbers   |
 
