@@ -1,0 +1,1360 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'C:/Users/Osaid/Documents/ActiveHDL/Project_1210733/Project/src/Results.awc' connected to 'C:/Users/Osaid/Documents/ActiveHDL/Project_1210733/Project/src/Results.asdb'.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  5:46 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a85  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f0286  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 00001a87  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 000007c8  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 001f1a89  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a8a  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8b  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8c  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8d  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8e  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f97cb  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 00050148  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 280000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 001f07c6  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 00000006  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 001f07cd  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 0000000b  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000c005  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 001f0606  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 0000c00d  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 001fffce  || Result :        5338  || Expected Result :        5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 88728250 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  5:47 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338  || Expected Result :        5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 156431410 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  5:54 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338  || Expected Result :        5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 191822950 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  6:09 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a85  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f0286  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 00001a87  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 000007c8  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 001f1a89  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a8a  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8b  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8c  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8d  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8e  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f97cb  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 00050148  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 280000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 001f07c6  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 00000006  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 001f07cd  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 0000000b  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000c005  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 001f0606  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 0000c00d  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 001fffce  || Result :        5338  || Expected Result :        5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 11980130 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  6:09 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 17885780 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  6:11 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338  || Expected Result :        5338 || Status : PASS
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+# KERNEL: stopped at time: 73267940 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  6:11 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338  || Expected Result :        5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 77404540 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  6:12 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 1365202880 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  6:20 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 41614120 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  6:21 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338  || Expected Result :        5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 748459860 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 37 (92.50%) signals in SLP and 3 (7.50%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4710 kB (elbread=427 elab2=4148 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  6:26 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Invalid opcode !
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Error: VCP5103 Design_tb.v : (199, 36): Undeclared identifier: opcode.
+# Error: VCP5103 Design_tb.v : (199, 48): Undeclared identifier: opcode.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Error: VCP2000 Design_tb.v : (49, 41): Syntax error. Unexpected token: ,.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Error: VCP2890 Design_tb.v : (189, 49): Unspecified argument is used for an argument that does not have a default value: ok.
+# Error: VCP5103 Design_tb.v : (203, 36): Undeclared identifier: opcode.
+# Error: VCP5103 Design_tb.v : (203, 48): Undeclared identifier: opcode.
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Error: VCP2890 Design_tb.v : (189, 49): Unspecified argument is used for an argument that does not have a default value: ok.
+# Error: VCP5103 Design_tb.v : (203, 36): Undeclared identifier: opcode.
+# Error: VCP5103 Design_tb.v : (203, 48): Undeclared identifier: opcode.
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Error: VCP5103 Design_tb.v : (204, 36): Undeclared identifier: opcode.
+# Error: VCP5103 Design_tb.v : (204, 48): Undeclared identifier: opcode.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Error: VCP5103 Design_tb.v : (204, 32): Undeclared identifier: ok.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+# KERNEL: stopped at time: 3859984950 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (92.86%) signals in SLP and 3 (7.14%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4712 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:00 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000  || Instruction : 001f1a84  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   3      13070PASS
+# KERNEL: Time : 40000  || Instruction : 001f1a85  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   Ó       3310PASS
+# KERNEL: Time : 60000  || Instruction : 001f0286  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇËê      -6000PASS
+# KERNEL: Time : 80000  || Instruction : 00001a87  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   á       6535PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   p       6000PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇËè      -6001PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :          4880PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇ˚“      -1070PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˛       8190PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   û       7070PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   p       6000PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇ„‡      -7200PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :           7200PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇËê      -6000PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :           7200PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :               0PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ⁄       5338PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇÎ&      -5338PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ⁄       5338PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇÎ&      -5338PASS
+endsim
+# KERNEL: stopped at time: 168382850 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (92.86%) signals in SLP and 3 (7.14%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4712 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:01 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000  || Instruction : 001f1a84  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   3      13070PASS
+# KERNEL: Time : 40000  || Instruction : 001f1a85  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   Ó       3310PASS
+# KERNEL: Time : 60000  || Instruction : 001f0286  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇËê      -6000PASS
+# KERNEL: Time : 80000  || Instruction : 00001a87  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   á       6535PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   p       6000PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇËè      -6001PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :          4880PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇ˚“      -1070PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˛       8190PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   û       7070PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   p       6000PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇ„‡      -7200PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :           7200PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇËê      -6000PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :           7200PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :               0PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ⁄       5338PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇÎ&      -5338PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ⁄       5338PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇÎ&      -5338PASS
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+# KERNEL: stopped at time: 137669520 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (92.86%) signals in SLP and 3 (7.14%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4712 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:02 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000  || Instruction : 001f1a84  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   3      13070PASS
+# KERNEL: Time : 40000  || Instruction : 001f1a85  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   Ó       3310PASS
+# KERNEL: Time : 60000  || Instruction : 001f0286  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇËê      -6000PASS
+# KERNEL: Time : 80000  || Instruction : 00001a87  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   á       6535PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   p       6000PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇËè      -6001PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :          4880PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇ˚“      -1070PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˛       8190PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   û       7070PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   p       6000PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇ„‡      -7200PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :           7200PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇËê      -6000PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :           7200PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :               0PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ⁄       5338PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇÎ&      -5338PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ⁄       5338PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status : ˇˇÎ&      -5338PASS
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+restart
+endsim
+# KERNEL: stopped at time: 39309040 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (92.86%) signals in SLP and 3 (7.14%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4711 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:02 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 3803504550 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Error: VCP2000 Design_tb.v : (49, 41): Syntax error. Unexpected token: ,.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Error: VCP5103 Design_tb.v : (209, 36): Undeclared identifier: opcode.
+# Error: VCP5103 Design_tb.v : (209, 48): Undeclared identifier: opcode.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (90.70%) signals in SLP and 4 (9.30%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4712 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:27 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070  || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310  || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535  || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001  || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880  || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070  || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190  || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070  || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000  || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200  || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result : Invalid opcode!  || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322  || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000  || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200  || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0  || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338  || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result :       -5338  || Expected Result :       -5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 384600720 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (90.70%) signals in SLP and 4 (9.30%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4712 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:30 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070      || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310      || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000      || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535      || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000      || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001      || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880      || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070      || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190      || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070      || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000      || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200      || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322      || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result : Invalid opcode! || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322      || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200      || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000      || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200      || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0      || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338      || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338      || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338      || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result :       -5338      || Expected Result :       -5338 || Status : PASS
+restart
+endsim
+# KERNEL: stopped at time: 23485120 ns
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (90.70%) signals in SLP and 4 (9.30%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4712 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:30 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070     || Expected Result :       13070 || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310     || Expected Result :        3310 || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000     || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535     || Expected Result :        6535 || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000     || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001     || Expected Result :       -6001 || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880     || Expected Result :        4880 || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070     || Expected Result :       -1070 || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190     || Expected Result :        8190 || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070     || Expected Result :        7070 || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000     || Expected Result :        6000 || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200     || Expected Result :       -7200 || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322     || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result : Invalid opcode! || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322     || Expected Result :        3322 || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200     || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000     || Expected Result :       -6000 || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200     || Expected Result :        7200 || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0     || Expected Result :           0 || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338     || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338     || Expected Result :       -5338 || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338     || Expected Result :        5338 || Status : PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result :       -5338     || Expected Result :       -5338 || Status : PASS
+endsim
+# KERNEL: stopped at time: 102820390 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v $dsn/src/alu.v $dsn/src/reg_file.v $dsn/src/mp_top.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (90.70%) signals in SLP and 4 (9.30%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4712 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:31 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070     || Expected Result :       13070    || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310     || Expected Result :        3310    || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000     || Expected Result :       -6000    || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535     || Expected Result :        6535    || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000     || Expected Result :        6000    || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001     || Expected Result :       -6001    || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880     || Expected Result :        4880    || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070     || Expected Result :       -1070    || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190     || Expected Result :        8190    || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070     || Expected Result :        7070    || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000     || Expected Result :        6000    || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200     || Expected Result :       -7200    || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322     || Expected Result :        3322    || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result : Invalid opcode! || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322     || Expected Result :        3322    || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200     || Expected Result :        7200    || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000     || Expected Result :       -6000    || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200     || Expected Result :        7200    || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0     || Expected Result :           0    || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338     || Expected Result :        5338    || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338     || Expected Result :       -5338    || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338     || Expected Result :        5338    || Status : PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result :       -5338     || Expected Result :       -5338    || Status : PASS
+endsim
+# KERNEL: stopped at time: 21645920 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (90.70%) signals in SLP and 4 (9.30%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4712 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:31 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070     || Expected Result :       13070     || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310     || Expected Result :        3310     || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000     || Expected Result :       -6000     || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535     || Expected Result :        6535     || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000     || Expected Result :        6000     || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001     || Expected Result :       -6001     || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880     || Expected Result :        4880     || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070     || Expected Result :       -1070     || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190     || Expected Result :        8190     || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070     || Expected Result :        7070     || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000     || Expected Result :        6000     || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200     || Expected Result :       -7200     || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322     || Expected Result :        3322     || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result : Invalid opcode! || Expected Result : Invalid opcode! || Status :   ˙       3322PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322     || Expected Result :        3322     || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200     || Expected Result :        7200     || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000     || Expected Result :       -6000     || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200     || Expected Result :        7200     || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0     || Expected Result :           0     || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338     || Expected Result :        5338     || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338     || Expected Result :       -5338     || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338     || Expected Result :        5338     || Status : PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result :       -5338     || Expected Result :       -5338     || Status : PASS
+endsim
+# KERNEL: stopped at time: 136354800 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Design_tb Design_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Project $dsn/src/Design_tb.v
+# Unit top modules: Design_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 39 (90.70%) signals in SLP and 4 (9.30%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4712 kB (elbread=427 elab2=4150 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Osaid\Documents\ActiveHDL\Project_1210733\Project\src\wave.asdb
+#  7:32 PM, Friday, 27 December 2024
+#  Simulation has been initialized
+run
+# KERNEL: Time : 20000   || Instruction : 001f1a84  || Result :       13070     || Expected Result :       13070     || Status : PASS
+# KERNEL: Time : 40000   || Instruction : 001f1a85  || Result :        3310     || Expected Result :        3310     || Status : PASS
+# KERNEL: Time : 60000   || Instruction : 001f0286  || Result :       -6000     || Expected Result :       -6000     || Status : PASS
+# KERNEL: Time : 80000   || Instruction : 00001a87  || Result :        6535     || Expected Result :        6535     || Status : PASS
+# KERNEL: Time : 100000  || Instruction : 000007c8  || Result :        6000     || Expected Result :        6000     || Status : PASS
+# KERNEL: Time : 120000  || Instruction : 001f1a89  || Result :       -6001     || Expected Result :       -6001     || Status : PASS
+# KERNEL: Time : 140000  || Instruction : 001f1a8a  || Result :        4880     || Expected Result :        4880     || Status : PASS
+# KERNEL: Time : 160000  || Instruction : 001f1a8b  || Result :       -1070     || Expected Result :       -1070     || Status : PASS
+# KERNEL: Time : 180000  || Instruction : 001f1a8c  || Result :        8190     || Expected Result :        8190     || Status : PASS
+# KERNEL: Time : 200000  || Instruction : 001f1a8d  || Result :        7070     || Expected Result :        7070     || Status : PASS
+# KERNEL: Time : 220000  || Instruction : 001f1a8e  || Result :        6000     || Expected Result :        6000     || Status : PASS
+# KERNEL: Time : 240000  || Instruction : 001f97cb  || Result :       -7200     || Expected Result :       -7200     || Status : PASS
+# KERNEL: Time : 260000  || Instruction : 00050148  || Result :        3322     || Expected Result :        3322     || Status : PASS
+# KERNEL: Time : 280000  || Instruction : 00057acf  || Result : Invalid opcode! || Expected Result : Invalid opcode! || Status : PASS
+# KERNEL: Time : 300000  || Instruction : 00050148  || Result :        3322     || Expected Result :        3322     || Status : PASS
+# KERNEL: Time : 320000  || Instruction : 001f07c6  || Result :        7200     || Expected Result :        7200     || Status : PASS
+# KERNEL: Time : 340000  || Instruction : 00000006  || Result :       -6000     || Expected Result :       -6000     || Status : PASS
+# KERNEL: Time : 360000  || Instruction : 001f07cd  || Result :        7200     || Expected Result :        7200     || Status : PASS
+# KERNEL: Time : 380000  || Instruction : 0000000b  || Result :           0     || Expected Result :           0     || Status : PASS
+# KERNEL: Time : 400000  || Instruction : 0000c005  || Result :        5338     || Expected Result :        5338     || Status : PASS
+# KERNEL: Time : 420000  || Instruction : 001f0606  || Result :       -5338     || Expected Result :       -5338     || Status : PASS
+# KERNEL: Time : 440000  || Instruction : 0000c00d  || Result :        5338     || Expected Result :        5338     || Status : PASS
+# KERNEL: Time : 460000  || Instruction : 001fffce  || Result :       -5338     || Expected Result :       -5338     || Status : PASS
+endsim
+# KERNEL: stopped at time: 174318970 ns
+# VSIM: Simulation has finished.

@@ -1,0 +1,1 @@
+-o C:/Users/Osaid/Documents/ActiveHDL/Project_1210733/Project/compile -lc C:/Users/Osaid/Documents/ActiveHDL/Project_1210733/library.cfg -fl C:/Users/Osaid/Documents/ActiveHDL/Project_1210733/Project/projlib.cfg -pli "C:/Aldec/Active-HDL-Student-Edition/bin/systf.dll" -O2 -sve -msg 5 -sv2k17 -work Project C:/Users/Osaid/Documents/ActiveHDL/Project_1210733/Project/src/Design_tb.v 
